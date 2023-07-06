@@ -1,5 +1,6 @@
 <template>
   <div class="logobar">
+
     <div class="logo">
       <a href="#">
         <img src="@/uiComponents/imagesUI/logo (1).png" alt="Logo Quantic Academy">
@@ -9,19 +10,28 @@
         </div>
       </a>
     </div>
+
     <div class="address_academy">
       <a href="#">
         <img src="./imagesUI/Frame1024.png" class="map_image">
       </a>
-      <p class="address_p">Hayat Regency <br>
-        9 Navoi Avenue, Tashkent</p>
-      <!-- <p class="viewOnMap">Показать на карте</p> -->
-    </div>
-    <div class="typeTelegram">
-      <!-- <a href="#">
-        <img src="./imagesUI/writeTelegram.png">
-      </a> -->
       <a href="#">
+        <p class="address_p">Hayat Regency <br>
+          9 Navoi Avenue, Tashkent</p>
+      </a>
+    </div>
+
+    <div class="typeTelegram">
+      <div style="margin-top: 51px;">
+        <span class="typeTgSpan" style="font-weight: 600;">
+          Есть вопрос?</span>
+        <span class="typeTgSpan" style="font-weight: 500;">
+          Задавайте напримую</span>
+      </div>
+      <a href="#">
+        <div
+          style="width: 6px; height: 6px; position: absolute; background: #48C95F; border-radius: 50px; margin-left: 148px; margin-top: 5px;">
+        </div>
         <img src="./imagesUI/telegramIcon.svg" class="headerTelegramIcon">
         <img src="./imagesUI/Rectangle400.png" class="rectangle400">
         <div class="typeTelegram_p">
@@ -29,6 +39,37 @@
         </div>
       </a>
     </div>
+
+    <div class="consultation">
+      <button type="button" class="btn btn-light">
+        <span class="freeConsultation">
+          Бесплатная консультация
+        </span></button>
+    </div>
+
+    <div class="logoContact">
+      <div class="logoPhoneNumber">+998 (99 ) 640 55 99</div>
+      <div class="logoContactTime">
+        <div style="width: 6px; height: 6px; position: relative; background: #48C95F; border-radius: 50px"></div>
+        <div class="logoWorkTime">Время работы Пн-Пт 9:00-18:00</div>
+      </div>
+    </div>
+
+    <div class="logoLanguage">
+      <div style="width: 42px; height: 32px; position: relative; border-radius: 5px; overflow: hidden">
+        <div style="width: 42px; height: 32px; left: 0px; top: 0px; position: absolute">
+          <div style="width: 42px; height: 32px; left: 0px; top: 0px; position: absolute; background: white"></div>
+          <div style="width: 42px; height: 21.33px; left: 0px; top: 10.67px; position: absolute; background: #0039A6">
+          </div>
+          <div style="width: 42px; height: 10.67px; left: 0px; top: 21.33px; position: absolute; background: #D52B1E">
+          </div>
+        </div>
+      </div>
+      <div style="width: 16px; height: 16px; position: relative">
+        <div style="width: 10px; height: 6px; left: 3px; top: 6px; position: absolute; background: white"></div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -122,6 +163,17 @@ a:hover {
 
 .typeTelegram {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -30px;
+}
+
+.typeTgSpan {
+  color: white;
+  font-size: 13px;
+  font-family: Montserrat;
+  word-wrap: break-word;
 }
 
 .headerTelegramIcon {
@@ -130,7 +182,7 @@ a:hover {
   top: 86.1865234375px;
   left: 766.6876220703125px;
 
-  margin-top: 93px;
+  margin-top: 4px;
   margin-left: 5px;
 
 }
@@ -142,7 +194,7 @@ a:hover {
   left: 771.6876220703125px;
   border-radius: 29px;
 
-  margin-top: 93px;
+  margin-top: 4px;
   margin-left: -19px;
 }
 
@@ -156,5 +208,65 @@ a:hover {
   font-size: 10px;
   line-height: 2px;
   font-weight: bold;
+}
+
+.consultation {
+  position: relative;
+}
+
+.btn-light {
+  margin-top: 45px;
+  margin-left: 15px;
+  border-radius: 100px;
+  padding: 20px 20px;
+}
+
+.freeConsultation {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 1.1299999952316284px;
+  text-align: left;
+  width: 226px;
+  height: 18px;
+}
+
+.logoContact {
+  width: 284px;
+  height: 57px;
+  margin-top: 45px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}
+
+.logoPhoneNumber {
+  color: white;
+  font-size: 27px;
+  font-family: Montserrat;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.logoContactTime {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.logoWorkTime {
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.logoLanguage {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 </style>
