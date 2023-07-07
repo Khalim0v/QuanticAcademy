@@ -3,11 +3,7 @@
 
     <div class="logo">
       <a href="#">
-        <img src="@/uiComponents/imagesUI/logo (1).png" alt="Logo Quantic Academy">
-        <div class="academy">
-          <img src="../uiComponents/imagesUI/Frame.svg">
-          <p class="academy_p">academy</p>
-        </div>
+        <img src="@/uiComponents/imagesUI/logo.png" alt="Logo Quantic Academy">
       </a>
     </div>
 
@@ -99,18 +95,6 @@ export default {
   margin-left: 99px;
 }
 
-.academy {
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: center;
-  display: flex;
-  justify-content: flex-end;
-  color: rgba(51, 190, 249, 1);
-}
-
 a {
   text-decoration: none;
   font-weight: 700;
@@ -150,16 +134,6 @@ a:hover {
   text-align: left;
   margin-left: 10px;
 }
-
-/* .viewOnMap {
-  color: #FFFFFF;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 15px;
-  letter-spacing: 0em;
-  text-align: left;
-} */
 
 .typeTelegram {
   position: relative;

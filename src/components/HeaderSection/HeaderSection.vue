@@ -4,6 +4,7 @@
       <div class="bphoto">
         <Logobar />
         <Navbar />
+        <StartLearn />
         <div class="overlay"></div>
       </div>
     </div>
@@ -13,11 +14,12 @@
 <script>
 import Logobar from '@/uiComponents/Logobar.vue'
 import Navbar from './Navbar.vue'
-
+import StartLearn from '../mainSection/StartLearn.vue';
 export default {
   components: {
     Logobar,
     Navbar,
+    StartLearn
   }
 }
 </script>

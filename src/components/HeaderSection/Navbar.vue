@@ -62,7 +62,7 @@ export default {
 </script>
 
 <style scoped>
-navbar {
+.navbar {
   background: #081C53;
 }
 
@@ -79,6 +79,7 @@ navbar {
 a {
   color: white;
   text-decoration: none;
+  font-weight: normal;
 }
 
 a:hover {

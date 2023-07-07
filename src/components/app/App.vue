@@ -5,7 +5,7 @@
 import HeaderSection from '@/components/headerSection/HeaderSection.vue'
 export default {
   components: {
-    HeaderSection
+    HeaderSection,
   }
 }
 </script>
