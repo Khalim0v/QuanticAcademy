@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Logobar from '@/uiComponents/Logobar.vue'
+import Logobar from './Logobar.vue'
 import Navbar from './Navbar.vue'
 import StartLearn from '../mainSection/StartLearn.vue';
 export default {

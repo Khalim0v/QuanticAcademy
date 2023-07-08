@@ -3,15 +3,15 @@
 
     <div class="logo">
       <a href="#">
-        <img src="@/uiComponents/imagesUI/logo.png" alt="Logo Quantic Academy">
+        <img src="./headerImages/logo.png" alt="Logo Quantic Academy">
       </a>
     </div>
 
     <div class="address_academy">
-      <a href="#">
-        <img src="./imagesUI/Frame1024.png" class="map_image">
+      <a href="https://goo.gl/maps/ZmiWn7LxCPNHtvKq7">
+        <img src="./headerImages/Frame1024.png" class="map_image">
       </a>
-      <a href="#">
+      <a href="https://goo.gl/maps/ZmiWn7LxCPNHtvKq7">
         <p class="address_p">Hayat Regency <br>
           9 Navoi Avenue, Tashkent</p>
       </a>
@@ -28,8 +28,8 @@
         <div
           style="width: 6px; height: 6px; position: absolute; background: #48C95F; border-radius: 50px; margin-left: 148px; margin-top: 5px;">
         </div>
-        <img src="./imagesUI/telegramIcon.svg" class="headerTelegramIcon">
-        <img src="./imagesUI/Rectangle400.png" class="rectangle400">
+        <img src="./headerImages/telegramIcon.svg" class="headerTelegramIcon">
+        <img src="./headerImages/Rectangle400.png" class="rectangle400">
         <div class="typeTelegram_p">
           <span class="textTypeTelegram_p">Написать в Telegram</span>
         </div>
